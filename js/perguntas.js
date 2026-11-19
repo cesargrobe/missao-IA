@@ -43,27 +43,27 @@ export const perguntas = [
             },
         ]
     },
-    {
-        enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
-            {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
-                ],
-                proxima: 5,
-            },
-            {
-                texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
-                ],
-                proxima: 6,
-            },            
-        ]
-    },
+   {
+    enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+    alternativas: [
+        {
+            texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
+            afirmacao: [
+                "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
+                "Criou grupos de ética voltados para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+            ],
+            proxima: 3,
+        },
+        {
+            texto: "Defendo a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+            afirmacao: [
+                "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
+                "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+            ],
+            proxima: 3,
+        },
+    ]
+},
     {
         enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
         alternativas: [
@@ -86,23 +86,23 @@ export const perguntas = [
             },            
         ]
     },
-    {
-        enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
-        alternativas: [
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: [
-                    "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-                ],
-                proxima: 9,
-            },
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: [
-                    "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-                ],
-                proxima: 10,
-            },
-        ]
-    }
+{
+    enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+    alternativas: [
+        {
+            texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+            afirmacao: [
+                "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final."
+            ],
+            proxima: 5,
+        },
+        {
+            texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+            afirmacao: [
+                "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+            ],
+            proxima: 5,
+        },
+    ]
+}
 ];
