@@ -94,14 +94,14 @@ export const perguntas = [
                 afirmacao: [
                     "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
                 ],
-                proxima: 9;
+                proxima: 9,
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
                 afirmacao: [
                     "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
                 ],
-                proxima: 10;
+                proxima: 10,
             },
         ]
     }
